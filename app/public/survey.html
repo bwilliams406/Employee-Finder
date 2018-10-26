@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Employee Finder</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+   
+    <!-- Header -->
+    <div class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Employee Finder</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Fill out the questions below!</h2>
+
+          <form>
+            Name:<br>
+            <input required type="text" name="name" id= "name"><br>
+            Photo:<br>
+            <input type="text" name="photo"id="photo">
+
+
+          <div class="survey">
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionOne">
+                    <option selected>You are a quick learner and grasp concepts easily</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionTwo">
+                    <option selected>You are self motivated and do not need to be micro managed</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionThree">
+                    <option selected>You are willing to take critisicm and use it to better yourself</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionFour">
+                    <option selected>You agree that everyones ideas and beliefs should be respected</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionFive">
+                    <option selected>You work well alone or in groups</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionSix">
+                    <option selected>You work well under pressure</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionSeven">
+                    <option selected>You believe communication is the golden key</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionEight">
+                    <option selected>You are always ready and willing to go above and beyond</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionNine">
+                    <option selected>you believe every deserves credit where its deserved</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <select class="custom-select" id="questionTen">
+                    <option selected>Personality can be a better asset then experience</option>
+                    <option value="1">1 Strongly Disagree</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 Strongly Agree</option>
+                </select>
+            </div>
+
+
+            <button id="submitSurvey" type="submit" class="btn btn-secondary"> Submit</button>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+</form>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; 2018
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+  </body>
+
+</html>
+
+
+               
+                

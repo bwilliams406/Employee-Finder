@@ -1,5 +1,5 @@
 {
-  "name": "employee-finder",
+  "name": "employeefinder",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,15 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bwilliams406/Employee-Finder.git"
+    "url": "git+https://github.com/maniacmaniac19/EmployeeFinder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bwilliams406/Employee-Finder/issues"
+    "url": "https://github.com/maniacmaniac19/EmployeeFinder/issues"
   },
-  "homepage": "https://github.com/bwilliams406/Employee-Finder#readme",
+  "homepage": "https://github.com/maniacmaniac19/EmployeeFinder#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7"
   }
 }
