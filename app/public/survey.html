@@ -11,15 +11,15 @@
     <title>Employee Finder</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="./assets/.vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="./assets/css/grayscale.min.css" rel="stylesheet">
 
   </head>
 
@@ -147,7 +147,7 @@
             </div>
 
 
-            <button id="submitSurvey" type="submit" class="btn btn-secondary"> Submit</button>
+            <button id="submitBtn" type="submit" class="btn btn-secondary"> Submit</button>
 
 
 
@@ -155,6 +155,31 @@
         </div>
       </div>
     </div>
+
+
+
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title"><strong>Best Employee For You!</strong></h2>
+            </div>
+            <div class="modal-body">
+              <h2 id="matchName"></h2>
+              <div><img id="matchImg" style="width:450px;height:450px;"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
 
 
 
@@ -166,12 +191,14 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="./assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
+   
+    <script src="./assets/js/survey.js"></script>
 
   </body>
 
